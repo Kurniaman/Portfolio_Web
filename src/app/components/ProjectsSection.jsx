@@ -16,7 +16,7 @@ const projectsData = [
   },
   {
     id: 2,
-    title: "Potography Portfolio Dashboardsite",
+    title: "Dashboard KPI (Finance, L&G, Customer, Internal Process)",
     description: "Project 2 description",
     image: "/images/projects/2.png",
     tag: ["All", "Dashboard"],
@@ -25,7 +25,7 @@ const projectsData = [
   },
   {
     id: 3,
-    title: "E-commerce Application",
+    title: "Dashboard Coffe Chain",
     description: "Project 3 description",
     image: "/images/projects/3.png",
     tag: ["All", "Dashboard"],
@@ -34,7 +34,7 @@ const projectsData = [
   },
   {
     id: 4,
-    title: "Food Ordering Application",
+    title: "Dashboard Flood : Based on Clustering and Prediction Flood",
     description: "Project 4 description",
     image: "/images/projects/4.png",
     tag: ["All", "Dashboard"],
@@ -43,7 +43,7 @@ const projectsData = [
   },
   {
     id: 5,
-    title: "React Firebase Template",
+    title: "Dashboard Credit Card",
     description: "Authentication and CRUD operations",
     image: "/images/projects/5.png",
     tag: ["All", "Dashboard"],
@@ -52,7 +52,7 @@ const projectsData = [
   },
   {
     id: 6,
-    title: "Full-stack Roadmap",
+    title: "Dashboard Covid Indonesia",
     description: "Project 5 description",
     image: "/images/projects/6.png",
     tag: ["All", "Dashboard"],
@@ -61,7 +61,7 @@ const projectsData = [
   },
   {
     id: 7,
-    title: "Full-stack Roadmap",
+    title: "Final Project Dicoding : Image Classification",
     description: "Project 5 description",
     image: "/images/projects/7.png",
     tag: ["All", "Machine Learning"],
@@ -70,7 +70,7 @@ const projectsData = [
   },
   {
     id: 8,
-    title: "Full-stack Roadmap",
+    title: "Sentiment Analysis with Decision Tree dan GridSearchCV",
     description: "Project 5 description",
     image: "/images/projects/8.png",
     tag: ["All", "Machine Learning"],
@@ -79,7 +79,7 @@ const projectsData = [
   },
   {
     id: 9,
-    title: "Full-stack Roadmap",
+    title: "Prediction Clothing Sales with ARIMA model",
     description: "Project 5 description",
     image: "/images/projects/9.png",
     tag: ["All", "Machine Learning"],
@@ -88,7 +88,7 @@ const projectsData = [
   },
   {
     id: 10,
-    title: "Full-stack Roadmap",
+    title: "K-Means Clustering using RFM Analysis variable ",
     description: "Project 5 description",
     image: "/images/projects/10.png",
     tag: ["All", "Machine Learning"],
@@ -119,6 +119,15 @@ const projectsData = [
     description: "Project 5 description",
     image: "/images/projects/13.png",
     tag: ["All", "Statistics"],
+    gitUrl: "/",
+    previewUrl: "/",
+  },
+  {
+    id: 14,
+    title: "Project ETL - Selection of New Strikers and Midfielders",
+    description: "Project 5 description",
+    image: "/images/projects/14.png",
+    tag: ["All", "ETL"],
     gitUrl: "/",
     previewUrl: "/",
   },
@@ -168,6 +177,12 @@ const ProjectsSection = () => {
           name="Statistics"
           isSelected={tag === "Statistics"}
         />
+        <ProjectTag
+          onClick={handleTagChange}
+          name="ETL"
+          isSelected={tag === "ETL"}
+        />
+        
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
         {filteredProjects.map((project, index) => (
