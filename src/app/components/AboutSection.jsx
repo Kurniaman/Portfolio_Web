@@ -70,7 +70,7 @@ const AboutSection = () => {
         <Image src="/images/about-image.png" width={500} height={500} />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
-          <p className="text-base lg:text-lg text-justify">Hello, my name is Kurniaman Andreas Zega. You can call me Niman. I am currently studying at the Institut Teknologi Sepuluh Nopember (ITS) majoring in Sistem Informasi.</p>
+          <p className="text-base lg:text-lg text-justify">Hello, my name is Kurniaman Andreas Zega. You can call me Niman. I am currently studying at the Institut Teknologi Sepuluh Nopember (ITS) majoring in Sistem Informasi. I have an interest in data and web development</p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton selectTab={() => handleTabChange('skills')} active={tab === 'skills'}>
               {' '}

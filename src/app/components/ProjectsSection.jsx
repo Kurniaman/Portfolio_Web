@@ -20,7 +20,7 @@ const projectsData = [
     description: "Project 2 description",
     image: "/images/projects/2.png",
     tag: ["All", "Dashboard"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/Kurniaman/Portfolio_Data/tree/main/Vizualization/KPI%20Dashboard%20Starbucks%20Power%20BI",
     previewUrl: "/",
   },
   {
@@ -29,7 +29,7 @@ const projectsData = [
     description: "Project 3 description",
     image: "/images/projects/3.png",
     tag: ["All", "Dashboard"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/Kurniaman/Portfolio_Data/tree/main/Vizualization/Chain_Analysis",
     previewUrl: "/",
   },
   {
@@ -38,7 +38,7 @@ const projectsData = [
     description: "Project 4 description",
     image: "/images/projects/4.png",
     tag: ["All", "Dashboard"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/Kurniaman/Final-Project-DSA-XPM",
     previewUrl: "/",
   },
   {
@@ -47,7 +47,7 @@ const projectsData = [
     description: "Authentication and CRUD operations",
     image: "/images/projects/5.png",
     tag: ["All", "Dashboard"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/Kurniaman/Portfolio_Data/tree/main/Vizualization/Analysis%20Credit%20Card%20in%20Bank",
     previewUrl: "/",
   },
   {
@@ -56,7 +56,7 @@ const projectsData = [
     description: "Project 5 description",
     image: "/images/projects/6.png",
     tag: ["All", "Dashboard"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/Kurniaman/Portfolio_Data/tree/main/Vizualization/Analisis%20Covid%20Indonesia",
     previewUrl: "/",
   },
   {
@@ -65,7 +65,7 @@ const projectsData = [
     description: "Project 5 description",
     image: "/images/projects/7.png",
     tag: ["All", "Machine Learning"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/Kurniaman/Portfolio_Data/tree/main/Python/machinelearning%20-%20dicoding/Final%20Project_Image%20Classification",
     previewUrl: "/",
   },
   {
@@ -74,7 +74,7 @@ const projectsData = [
     description: "Project 5 description",
     image: "/images/projects/8.png",
     tag: ["All", "Machine Learning"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/Kurniaman/Portfolio_Data/tree/main/Python/Sentiment%20Analysis%20using%20Decision%20Tree",
     previewUrl: "/",
   },
   {
@@ -83,7 +83,7 @@ const projectsData = [
     description: "Project 5 description",
     image: "/images/projects/9.png",
     tag: ["All", "Machine Learning"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/Kurniaman/Portfolio_Data/tree/main/Python/ARIMA%20Project",
     previewUrl: "/",
   },
   {
@@ -92,7 +92,7 @@ const projectsData = [
     description: "Project 5 description",
     image: "/images/projects/10.png",
     tag: ["All", "Machine Learning"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/Kurniaman/Portfolio_Data/tree/main/Python/RFM%20Analysis",
     previewUrl: "/",
   },
   {
@@ -101,7 +101,7 @@ const projectsData = [
     description: "Project 5 description",
     image: "/images/projects/11.png",
     tag: ["All", "Statistics"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/Kurniaman/Portfolio_Data/blob/main/Stat/hypothesis%20testing_starbuck.Rmd",
     previewUrl: "/",
   },
   {
@@ -110,7 +110,7 @@ const projectsData = [
     description: "Project 5 description",
     image: "/images/projects/12.png",
     tag: ["All", "Statistics"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/Kurniaman/Portfolio_Data/blob/main/Stat/confidence_intervals%20ga%20kosong.Rmd",
     previewUrl: "/",
   },
   {
@@ -119,7 +119,7 @@ const projectsData = [
     description: "Project 5 description",
     image: "/images/projects/13.png",
     tag: ["All", "Statistics"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/Kurniaman/Portfolio_Data/blob/main/Stat/Intro%20to%20R%2C%20Intro%20to%20Data%2C%20Uji%20Reabilitas%20dan%20Validitas_FULL.Rmd",
     previewUrl: "/",
   },
   {
@@ -128,7 +128,25 @@ const projectsData = [
     description: "Project 5 description",
     image: "/images/projects/14.png",
     tag: ["All", "ETL"],
-    gitUrl: "/",
+    gitUrl: "https://www.canva.com/design/DAFypsX4aO4/RgJJYa8p5sZ3Jibg1XXEPA/edit?utm_content=DAFypsX4aO4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+    previewUrl: "/",
+  },
+  {
+    id: 15,
+    title: "Churn Analysis and Modelling using Logistic Regression",
+    description: "Project 5 description",
+    image: "/images/projects/15.png",
+    tag: ["All", "Machine Learning"],
+    gitUrl: "https://github.com/Kurniaman/Portfolio_Data/tree/main/Python/business%20decision%20research",
+    previewUrl: "/",
+  },
+  {
+    id: 16,
+    title: "Unpaired t-test, paired t-test, One-Way Anova",
+    description: "Project 5 description",
+    image: "/images/projects/16.png",
+    tag: ["All", "Statistics"],
+    gitUrl: "https://docs.google.com/spreadsheets/d/1TEPUSCSnqDVz98dnDzBcDrnwSNmoOLGH0wahZRLd7hU/edit?usp=sharing",
     previewUrl: "/",
   },
 ];
