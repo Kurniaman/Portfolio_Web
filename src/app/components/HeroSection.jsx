@@ -18,7 +18,7 @@ const HeroSection = () => {
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl"></p>
           <div>
             <Link href="/#achievement" className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-200 text-white">
-              Let's Explore 
+              {`Let's Explore`} 
             </Link>
             <Link
               href="https://docs.google.com/document/d/1C9zj7wuHOnx4WscaHwDBpgE3tzvv5JoFJPlXDQUsNCc/edit?usp=sharing  "
