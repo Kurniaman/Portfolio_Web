@@ -20,7 +20,15 @@ const HeroSection = () => {
             <Link href="/#achievement" className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-200 text-white">
               Let's Explore 
             </Link>
-            
+            <Link
+              href="https://docs.google.com/document/d/1C9zj7wuHOnx4WscaHwDBpgE3tzvv5JoFJPlXDQUsNCc/edit?usp=sharing  "
+              className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
+              rel="noopener noreferrer" target="_blank"
+            >
+              <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
+                Explore CV
+              </span>
+            </Link>
           </div>
         </motion.div>
         <motion.div initial={{ opacity: 0, scale: 0.5 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.5 }} className="col-span-4 place-self-center mt-4 lg:mt-0">
